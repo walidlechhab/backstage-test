@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: developer
+  description : The developers
+spec:
+  type: team
+children: []
+members: [walidlechhab]
