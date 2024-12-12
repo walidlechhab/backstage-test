@@ -5,5 +5,6 @@ metadata:
   description : The developers
 spec:
   type: team
+parent: backstage
 children: []
 members: ['walidlechhab']
