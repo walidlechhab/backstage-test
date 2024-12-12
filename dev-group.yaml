@@ -5,6 +5,10 @@ metadata:
   description : The developers
 spec:
   type: team
+  profile:
+    displayName: Developer
+    email: dev@example.com
+    picture: https://avatars.githubusercontent.com/u/139875020
 parent: backstage
-children: []
-members: ['walidlechhab']
+children: [guest]
+members: [walidlechhab]
