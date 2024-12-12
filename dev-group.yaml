@@ -3,12 +3,17 @@ kind: Group
 metadata:
   name: developer
   description : The developers
+relations:
+  - type: hasMember
+    targetRef: user:default/walidlechhab
+    target:
+      kind: user
+      namespaces: default
+      name: walidlechhab
 spec:
   type: team
   profile:
     displayName: Developer
     email: dev@example.com
     picture: https://avatars.githubusercontent.com/u/139875020
-parent: backstage
-children: [guest]
-members: [walidlechhab]
+children: []
